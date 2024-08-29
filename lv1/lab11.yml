@@ -1,0 +1,1 @@
+kubectl set image pod/webserver nginx-container=nginx:latest

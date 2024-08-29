@@ -1,0 +1,22 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: print-envars-configmap
+data:
+  GREETING: "Welcome to"
+  COMPANY: "Nautilus"
+  GROUP: "Ltd"
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  name: print-envars-greeting
+spec:
+  containers:
+  - name: print-env-container
+    image: bash:latest
+    command: ["/bin/bash", "-c", "echo \"$GREETING $COMPANY $GROUP\""]
+    envFrom:
+    - configMapRef:
+        name: print-envars-configmap
+

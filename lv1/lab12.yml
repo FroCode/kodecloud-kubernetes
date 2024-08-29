@@ -1,0 +1,25 @@
+kubectl set --help
+kubectl get deployment
+kubectl set deployment/nginx-deployment image nginx-container=nginx:latest
+kubectl get pod
+kubectl describe pod nginx-deployment-dc49f85cc-zwvxd 
+kubectl set image  nginx-container=nginx:latest
+kubectl set deployment/nginx-deployment nginx-container=nginx:latest
+kubectl set image  nginx-container=nginx:latest
+kubectl set image --help
+kubectl set image deployment/nginx-deployment nginx-container=nginx:latest
+kubectl set image deployment/nginx-deployment --help
+kubectl set --help
+kubectl set replicaset --help
+kubectl set resources --help
+kubectl replicas --help
+kubectl scale --help
+kubectl scale --current-replicas=1 --replicas=5 deployment/nginx-deployment 
+kubectl  nodeport --help
+kubectl service --help
+kubectl --help
+kubectl  edit --help
+kubectl  get service
+# to edit file
+kubectl edit svc nginx-service 
+history | grep kubectl
