@@ -8,7 +8,7 @@ This repository contains solutions and resources for the **KodeKloud Kubernetes 
 - **Solution Files**: YAML manifests, Helm charts, and any other files used to complete the challenge.
 - **Explanations**: Detailed explanations of the solutions, including the thought process, steps taken, and lessons learned.
 
-## Solutuions Covered
+## Solutions Covered
 
 1. **Pod Management**: Deploying and managing Pods with various configurations.
 2. **Service Networking**: Exposing applications using ClusterIP, NodePort, and LoadBalancer Services.
