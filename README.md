@@ -23,5 +23,3 @@ This repository contains solutions and resources for the **KodeKloud Kubernetes 
 - [KodeKloud Kubernetes Course](https://kodekloud.com/courses/kubernetes/)
 - [Kubernetes Documentation](https://kubernetes.io/docs/)
 - [Kubectl Cheat Sheet](https://kubernetes.io/docs/reference/kubectl/cheatsheet/)
-
-Happy Learning and Kubernetes Mastery!
